@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "run elixir",
+			"type": "shell",
+			"command": "(cd ${fileDirname} && timeout 3 elixir ${fileBasename})",
+			"problemMatcher": []
+		},
+		{
+			"label": "run python",
+			"type": "shell",
+			"command": "(cd ${fileDirname} && timeout 3 python ${fileBasename})",
+			"problemMatcher": []
+		}
+	]
+}
