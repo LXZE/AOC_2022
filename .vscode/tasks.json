@@ -8,6 +8,16 @@
 			"problemMatcher": []
 		},
 		{
+			"label": "auto run elixir",
+			"type": "shell",
+			"command": "(cd ${fileDirname}; onchange -ik ${file} -- sh -c 'clear; timeout 3 elixir ${fileBasename}')",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
 			"label": "run python",
 			"type": "shell",
 			"command": "(cd ${fileDirname} && timeout 3 python ${fileBasename})",
