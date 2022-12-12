@@ -4,7 +4,7 @@
 		{
 			"label": "run elixir",
 			"type": "shell",
-			"command": "(cd ${fileDirname} && timeout 3 elixir ${fileBasename})",
+			"command": "(cd ${fileDirname} && timeout 10 elixir ${fileBasename})",
 			"problemMatcher": []
 		},
 		{
