@@ -6,3 +6,13 @@ Each day's solutions (1 for the first part, 2 for the second part, obviously) an
 Read it at your own risk.  
 
 ## Note 
+
+### Keyword for googling 
+- Day 7: tree traversal
+- Day 12: Dijkstra algorithm, Breadth-first search
+- Day 15: linear algebra
+- Day 16: weighted graph traversal, multiple search actor, time-limited graph search
+- Day 17: state cycle detection
+- Day 18: 3D surface calculation
+- Day 19: greedy search in state space
+- Day 20: index manipulation, cycle linked list
